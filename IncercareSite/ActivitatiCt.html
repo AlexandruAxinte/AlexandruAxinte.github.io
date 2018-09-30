@@ -1,0 +1,611 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, html  { 
+		height:100%;
+		margin:0;
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+	<meta name="pentru NavigationBar"/>
+} 
+
+.aranjare-buton1 {
+    position: absolute;
+    top: 1000px;
+    left: 640px;
+} 
+
+.aranjare-buton2 {
+    position: absolute;
+    top: 1820px;
+    left: 600px;
+} 
+
+.aranjare-buton3 {
+    position: absolute;
+    top: 2600px;
+    left: 560px;
+}
+
+.aranjare-buton4 {
+    position: absolute;
+    top: 3400px;
+    left: 640px;
+}
+
+.aranjare-buton5 {
+    position: absolute;
+    top: 4200px;
+    left: 640px;
+}
+
+.aranjare-buton6 {
+    position: absolute;
+    top: 5000px;
+    left: 600px;
+}
+
+.aranjare-buton7 {
+    position: absolute;
+    top: 5800px;
+    left: 625px;
+}
+
+.aranjare-buton8 {
+    position: absolute;
+    top: 6600px;
+    left: 590px;
+}
+
+.aranjare-buton9 {
+    position: absolute;
+    top: 7400px;
+    left: 585px;
+}
+
+.aranjare-buton10 {
+    position: absolute;
+    top: 8200px;
+    left: 610px;
+}
+
+.aranjare-buton11 {
+    position: absolute;
+    top: 9000px;
+    left: 500px;
+}
+
+.aranjare-meniu	{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.backgroundPlaja {
+	background-image: url("Plaja1Atractii.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: opacity(70%);
+
+}
+	
+.navbar {
+    overflow: hidden;
+    background-color: rgba(248, 247, 216, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 40px 45px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 40px 45px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+	background-color: rgba(255, 0, 0, 0.7);
+	<meta name="rosu cu 0.7 opacitate"/>
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.delay {
+animation-delay: 2s;
+	}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("ActivitatiPagCt/Plaja3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxVelier {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/PlimbareVelierCt2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSatVacanta {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/SatVacanta.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcArch {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/ParcArheologicCt2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPonton {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/ponton-mamaia-3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxCazino {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/CazinoConstanta2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTelecondola {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/TelecondolaCt3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPaintball {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/PaintBallCt.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxAquaMa {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/AquaMagicCt3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxEscapeRoom {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/EscapeRoom1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxDelfinariu {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/Delfinariu2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcAventuraNeptun {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/ParcAventuraNeptun2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+button {
+    background-color:rgba(101, 237, 27,0.5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 40px;
+	border-radius: 50%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-left">
+
+<div class="navbar">
+	<a href="Incercare1.html">Home</a>
+	<a href="#buton2">Buton2</a>
+	<div class="dropdown">
+	  <button class="dropbutton">Constanța
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiCt.html">Activități</a>
+		<a href="ZoneDeVizitatConstanta.html">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">București
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Sibiu
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiSb.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Brașov
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiBv.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+										
+	<div class="dropdown">
+		 <button class="dropbutton">Cluj
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="parallax1"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxVelier"></div>
+<div class="aranjare-buton1">
+<button type="button">Veliere</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Plimbarea cu velierul este una dintre cele mai bune idei pentru a admira marea, orașul, și delfinii, adică într un cuvânt motivele pentru care ați vizitat Constanța.
+
+Plimbările sunt disponibile începand cu 1 iunie, în fiecare vineri sâmbătă și duminică,cu plecare din portul Tomis la ora 18:00,<strong> la apusul soarelui</strong>.
+
+Prețul unei călătorii este de 100 de lei, călătoria durează 3 ore. Pe velier pot fi 8 persoane.<strong> Este necesară cumpărarea biletului în prealabil </strong>. 
+
+<strong>Contact</strong>: 0766469431.
+
+ <strong>Mai multe informatii puteti gasii la</strong>: https://www.zelist.ro/evenimente/constanta/.
+</div>
+
+<div class="parallaxSatVacanta"></div>
+<div class="aranjare-buton2">
+<button type="button">Sat Vacanță</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Amenajat în sudul stațiunii, între lacurile <strong>Tăbăcărie și Siutghiol</strong>, acest loc este ideal pentru persoanele aflate in căutarea distracției și veseliei.
+
+De departe, atracția principală a Satului de Vacanță este celebrul <strong>LUNA PARK</strong>, un parc de distracții plin de lumini și jocuri colorate.
+
+Sunt disponibile <strong>trenulețe și caruseluri pentru cei mici</strong>, dar și instalații pregătite să le ofere senzații tari celor mari (<strong>centrifugă, roller-coaster, ciocane</strong>, etc.)
+</div>
+
+<div class="parallaxParcArch"></div>
+<div class="aranjare-buton3">
+<button type="button">Parcul Arheologic</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Parcul Arheologic din Constanța reprezinta un spatiu cu vegetație bogată în care spiritul vechii cetăți Tomis este încă viu.
+
+Este situat între primărie și bulevardul Ferdinand,lânga centrul Constanței.
+
+Parcul are decorațiuni specifice <strong>cetății Tomis</strong>.Printre acestea se numără coloanele, vasele de ceramică și alte vestigii istorice care datează din perioada romano-bizantină a cetății.
+
+Latura de parc dinspre bulevardul Ferdinand este înca mărginită de <strong>zidul roman de incintă</strong>, construcție ce datează din secolul al III-lea d.Hr. și care prezintă două porți de intrare în cetate.
+
+În partea estică a parcului se poate observa și <strong>harta așezărilor antice din Dobrogea</strong>,confecționat din piatră naturală.
+
+Parcul este perfect pentru relaxare.
+</div>
+
+<div class="parallaxPonton"></div>
+<div class="aranjare-buton4">
+<button type="button">Ponton</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Pasarela se află în dreptul <strong>hotelului Victoria</strong>,are lungimea de aproximativ 500 de metrii în largul mării, și la final se află un debarcader.
+
+Lânga debarcader plutește un <strong>vapor care pleacă în curse regulate</strong> în care puteți să vă imbarcați pentru a putea admira marea,valurile, păsările de mare, și de ce nu și delfinii,în adevărata lor splendoare.
+
+Pe ponton sunt puse bănci pentru turiștii care vor să se relaxeze, răcoriți de briza mării.
+
+În timpul nopții <strong>pontonul este luminat</strong> în totalitate, perfect pentru o plimbare nocturna,deasupra mării line.
+</div>
+
+<div class="parallaxCazino"></div>
+<div class="aranjare-buton5">
+<button type="button">Cazino</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Cazinoul împreună cu faleza sunt fără discuție emblema orașului.
+
+El vegheză marea și este nelipsit din pozele turiștilor <strong>de peste 130 de ani</strong>.
+
+Dacă acum 130 de ani în acest loc magnific se organizau seri de dans, concerte și binecunoscutele jocuri de noroc,acum putem doar să ne imaginam cu o oarecare tristețe că în această clădire au avut loc aceste evenimente.
+
+Cazinoul poate fi vizitat pe dinăuntru doar în anumite perioade ale anului,pentru puțin timp,deobicei <strong>primăvara(aprilie-mai) și toamna(octombire-noiembrie)</strong>.
+
+</div>
+
+<div class="parallaxTelecondola"></div>
+<div class="aranjare-buton6">
+<button type="button">Telecondola</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Din telegondolă pot fi văzute, în cele <strong>opt minute</strong> ale călătoriei deasupra stațiunii Mamaia, numeroase priveliști extraordinare care îi vor cuceri cu adevarat pe cei care vor dori să trăiască o astfel de senzație la înălțime.
+
+Lungimea pe care plimbarea se desfasoară măsoară doi kilometri, ea având loc între <strong>Hotel Perla și Cazino</strong>.
+
+Costul unei plimbări este de <strong>20 de lei</strong>, iar orarul este de la <strong>10:00 la 21:00, zilnic</strong>.
+</div>
+
+<div class="parallaxPaintball"></div>
+<div class="aranjare-buton7">
+<button type="button">Paintball</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța dispune de câteva terenuri de Paintball aflate în oraș și în afara orașului.
+
+Pentru prețul de <strong>60-70 lei de persoană</strong> puteți să vă distrați pe cinste <strong>timp de 2 ore</strong> cu prietenii dumneavoastră.
+
+Cele mai cunoscute și mai dotate terenuri din Constanța sunt NRG Park,Tomis Paint Ball și City Paintball,ultimul dintre acestea fiind înafara orașului în localitatea Lumina, dar este de asemenea și cel mai mare teren de Paintball din Dobrogea.
+
+<strong>Contacte</strong>: -NRG Park:http://nrg-park.ro/ , 0740 809 804; </br>
+		  -Tomis: 0743 190 163; </br>
+		  -City:https://paintball-city.ro/ , 0746 635 929;
+</div>
+
+<div class="parallaxAquaMa"></div>
+<div class="aranjare-buton8">
+<button type="button">Aqua Magic</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+
+Parcul <strong>Aqua Magic</strong> este unul dintre cele mai mari și mai interesante parcuri de distracții din România,satisfăcând dorința de relaxare a unora dar și dorința de aventură și adrenalină a celorlalți.
+
+În parcul acvatic aveți la dispoziție peste 20 de atracții, printre care tobogane,scene de dans, renumitul Lazy River, baruri, restaurante.
+
+Tariful standard este de <strong>70 de lei pentru adulți,toată ziua</strong>, respectiv <strong>35 de lei pentru copiii sub 150 cm</strong>. Parcul este deschis în fiecare zi de la orele <strong>10:00 până la 19:00, toboganele închizându-se mai devreme, la 18:30</strong>.
+
+</div>
+
+<div class="parallaxEscapeRoom"></div>
+<div class="aranjare-buton9">
+<button type="button">Escape Room</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Imaginați-vă că sunteți încuiați într-o cameră cu prietenii voștrii și trebuie să vă folosiți de cunostințele fiecăruia dintre voi pentru a lega indiciile spre deshiderea ușii și ieșirea din cameră.
+
+<strong>Escape Room-ul</strong> din Constanța oferă două posibilități,două camere diferite,<strong>Da Vinci`s room</strong> și <strong>Hitler`s Bunker</strong>,cea din urmă fiind mai complicată.
+
+Jocul durează </strong>60 de minute</strong>,concurenții trebuie să încerce să iasă în acest timp.<strong>Sunt recomandate rezervările dinainte</strong>.<strong>Numărul minim de persoane este de 2</strong>,prețul unui bilet fiind de <strong>45 de lei de persoană</strong>.<strong>Numărul recomandat maxim este de 5 persoane</strong>,iar prețul este de <strong>35 de lei de persoană</strong>.
+
+<strong>Contact</strong>:0734060007;<strong>Site</strong>: http://www.theescapers.ro/en.
+</div>
+
+<div class="parallaxDelfinariu"></div>
+<div class="aranjare-buton10">
+<button type="button">Delfinariu</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+<strong>Complexul Muzeal de Știinte ale Naturii Constanța</strong> , care deține și renumitul Delfinariu, este structurat în mai multe părți.
+
+<strong> Microrezervația,păsările exotice și delfinariul</strong> intră în ofertă,prețul fiind de 40 de lei pentru adulți și 10 pentru elevi/studenți.Spectacolul delfinilor poate fi văzut la orele <strong>11:00,14:00 și 17:00</strong>. Alături de delfini mai puteți participa la spectacolul <strong>leilor de mare</strong>, prețul biletului este de 24 de lei pentru adulți și 10 pentru copii.Reprezentația leilor de mare este la orele <strong>12:00,15:00 și 18:00</strong>.
+
+<strong>Microrezervația</strong> dar și <strong>planetariul</strong> pun biletele la prețul de 8 lei.
+
+În complexul Muzeal de Știinte pot fi făcute și <strong>ore de echitație</strong>. Echitația de <strong> ponei </strong> fiind 5 lei, iar cea de <strong> cai </strong> fiind 10 lei.
+
+</div>
+
+<div class="parallaxParcAventuraNeptun"></div>
+<div class="aranjare-buton11">
+<button type="button">Parc Aventura Neptun</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Ghidat de sloganul “mare & aventura”, Paradis Land este locul perfect pentru petrecerea timpului liber înconjurat de natură.
+
+Parcul pune la dispoziție <strong>14 trasee</strong> cu greutate progresivă.Fiecare traseu are un număr cuprins între <strong>8-18 obstacole</strong>,de exemplu:<strong>tiroliană,skateboard,tunel in triunghi,surf,leagăn cu grindă</strong>.
+
+<strong>Puteți ajunge în Neptun luând autobuzul din gara Constanței spre Mangalia, iar apoi din Gara Mangalia, spre stația Poliția Neptun</strong>.
+
+Prețul pentru <strong>adulți este de 50 de lei,iar pentru copiii sub 18 ani de 35 de lei,timp de 2 ore și 30 de minute, cu tot cu echipament</strong>.
+
+În parc există și posibilitatea de a trage cu <strong>arme cu aer comprimat sau tir cu arcul</strong>,prețul fiind de <strong>20 de lei</strong>.
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,719 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, html  { 
+		height:100%;
+		margin:0;
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+	<meta name="pentru NavigationBar"/>
+} 
+
+.aranjare-buton1 {
+    position: absolute;
+    top: 1000px;
+    left: 580px;
+} 
+
+.aranjare-buton2 {
+    position: absolute;
+    top: 1820px;
+    left: 615px;
+} 
+
+.aranjare-buton3 {
+    position: absolute;
+    top: 2600px;
+    left: 530px;
+}
+
+.aranjare-buton4 {
+    position: absolute;
+    top: 3400px;
+    left: 670px;
+}
+
+.aranjare-buton5 {
+    position: absolute;
+    top: 4200px;
+    left: 620px;
+}
+
+.aranjare-buton6 {
+    position: absolute;
+    top: 5000px;
+    left: 580px;
+}
+
+.aranjare-buton7 {
+    position: absolute;
+    top: 5800px;
+    left: 645px;
+}
+
+.aranjare-buton8 {
+    position: absolute;
+    top: 6600px;
+    left: 605px;
+}
+
+.aranjare-buton9 {
+    position: absolute;
+    top: 7400px;
+    left: 600px;
+}
+
+.aranjare-buton10 {
+    position: absolute;
+    top: 8200px;
+    left: 645px;
+}
+
+.aranjare-buton11 {
+    position: absolute;
+    top: 9000px;
+    left: 570px;
+}
+
+.aranjare-buton12 {
+    position: absolute;
+    top: 9800px;
+    left: 645px;
+}
+
+.aranjare-buton13 {
+    position: absolute;
+    top: 10600px;
+    left: 580px;
+}
+
+.aranjare-buton14 {
+    position: absolute;
+    top: 11400px;
+    left: 640px;
+}
+
+.aranjare-buton15 {
+    position: absolute;
+    top: 12200px;
+    left: 560px;
+}
+
+.aranjare-buton16 {
+    position: absolute;
+    top: 13000px;
+    left: 590px;
+}
+
+.aranjare-buton17 {
+    position: absolute;
+    top: 13800px;
+    left: 610px;
+}
+
+.aranjare-buton18 {
+    position: absolute;
+    top: 14600px;
+    left: 610px;
+}
+
+.aranjare-buton19 {
+    position: absolute;
+    top: 15400px;
+    left: 610px;
+}
+
+.aranjare-meniu	{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.backgroundPlaja {
+	background-image: url("Plaja1Atractii.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: opacity(70%);
+
+}
+	
+.navbar {
+    overflow: hidden;
+    background-color: rgba(248, 247, 216, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 40px 45px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 40px 45px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+	background-color: rgba(255, 0, 0, 0.7);
+	<meta name="rosu cu 0.7 opacitate"/>
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.delay {
+animation-delay: 2s;
+	}
+
+.parallax1 {
+    /* Imaginea folosita */
+    background-image: url("ActivitatiPagSb/Sibiu4.jpg");
+
+    /* Marimea specifica */
+    min-height: 500px; 
+
+    /* Efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+.parallaxTransfagarasan {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/transfagarasan2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTransalpina{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/transalpina6.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSkiSb {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/Schiat5.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxLumeaTeatrului {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/LumeaTeatrului4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcArka{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/ParcAventura5.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTraseeDrumetie {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/DrumetieSb4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxEchitatieSb {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/echitatie1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTraseeBicicleta{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/MountainBike3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxEscapeRoomSb {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/EscapeRoom2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPaintballSb {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/PaintBall4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxMuzica {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/MuzicaSiDans1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxAlpinism {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/alpinism2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSporturiAeriene {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagSb/SporturiAeriene2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+button {
+    background-color:rgba(101, 237, 27,0.5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 40px;
+	border-radius: 50%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-left">
+
+<div class="navbar">
+	<a href="Incercare1.html">Home</a>
+	<a href="#buton2">Buton2</a>
+	<div class="dropdown">
+	  <button class="dropbutton">Constanța
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiCt.html">Activități</a>
+		<a href="ZoneDeVizitatConstanta.html">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">București
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiBv.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Sibiu
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiSb.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Brașov
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiBv.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+										
+	<div class="dropdown">
+		 <button class="dropbutton">Cluj
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="parallax1"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>Municipiul Sibiu</strong> a reprezentat și reprezintă unul dintre cele mai importante și înfloritoare orașe din Transilvania, 
+
+ fiind unul dintre principalele centre ale coloniștilor sași stabiliți în zonă. Orașul a fost capitală a Transilvaniei între anii 1692-1791 și 1849-1865. 
+
+ A cunoscut în ultimii ani o renaștere economică și culturală semnificativă. Sibiul este în prezent unul dintre orașele cu cel mai mare nivel de investiții străine din România. <strong>În anul 2007 a fost Capitala Culturală Europeană</strong>, împreună cu orașul Luxemburg.
+
+</div>
+
+
+
+<div class="parallaxTransfagarasan"></div>
+<div class="aranjare-buton1">
+<button type="button">Transfăgărășan</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Transfăgărășanul prin măreția și frumuseațea sa a antrenat o puternică dezvoltare economică a zonei.
+
+ Din această perspectivă turistică, locurile mai dezvoltate sunt și cele mai cunoscute, precum <strong>barajul și lacul Vidraru, Bâlea Lac, Balea Cascada, Cumpăna, Valea cu Pești sau mai nou stațiunea Molivisu</strong>.
+
+ Transfăgărășanul, rămâne o construcție ce a trezit interesul multora, de pe toate meleagurile. Ruta a fost declarată și <strong>cel mai frumos drum din lume</strong> de către mai multe publicații internaționale.
+
+ Transfăgărășanul rămâne cel mai spectaculos drum montan atât din țara noastră, cât și de pe mapamond.
+
+</div>
+
+
+
+<div class="parallaxTransalpina"></div>
+<div class="aranjare-buton2">
+<button type="button">Transalpina</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Transalpina este <strong>cel mai înalt drum rutier din România</strong> cât și din întregul lanț al Munților Carpați, atât din țară cât și din afara ei, atingând <strong>altitudinea maxima (2145 m) în Pasul Urdele</strong>.
+ 
+ Odată ajuns pe Transalpina, probabil că vei vrea să faci și altceva decât să te plimbi pe șosea, oricât de spectaculoasă ar fi. Poți să vizitezi câteva obiective turistice în zonă, cum ar fi <strong>Peștera Polovragi</strong>, <strong>Cheile Oltețului</strong> sau una din mănăstirile <strong>Icoana sau Polovragi</strong>.
+
+ Transalpina nu a fost asfaltată multa vreme.Până în 2009, șoseaua nu a știut practic ce e acela asfalt. E ceva, când te gandești că <strong>e veche de pe vremea romanilor</strong>; au construit-o armatele romane, care doreau să ajungă la Sarmizegetusa. 
+
+</div>
+
+<div class="parallaxSkiSb"></div>
+<div class="aranjare-buton3">
+<button type="button">Schiat/Snowboarding</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ În timpul iernii, <strong>Paltinișul</strong> este una din stațiunile favorite pentru sporturile de iarna, oferind multe pârtii de schi de dificultăți diferite. Schiorii au la dispoziție un <strong>telescaun</strong> (pe o distanță de 1025 m și o diferență de nivel de 241 m), un <strong>teleschi</strong> (pe o distanță de 410 și o diferență de nivel de 138 m) și o instalație pentru <strong>nocturnă</strong>. 
+
+ <strong>Stratul de zăpada se menține circa șase luni</strong>.Cea mai bună pâtie este pârtia de pe Muntele Oncești, care dispune de <strong>telescaun</strong>,<strong>teleschi</strong> și <strong>baby-lift</strong>. Vă puteți caza direct în stațiune.
+ 
+</div>
+
+<div class="parallaxLumeaTeatrului"></div>
+<div class="aranjare-buton4">
+<button type="button">Teatru</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>Teatru Național "Radu Stanca"</strong> este cea mai mare și mai importantă așezare de tip teatral din Sibiu. A fost fondată în anul 1949 de către Teatrul de Stat Sibiu,iar numele i-a fost dat după scenaristul și directorul de teatru,Radu Stanca.
+
+ Având în repertoriu <strong>85 de spectacole diferite</strong>, pornind de la tragedia greacă şi ajungând la cel mai novator experiment al secolului XXI, Teatrul Naţional „Radu Stanca" colaborează cu cei mai importanţi regizori români şi europeni.
+
+ El a reuşit performanţa unică de a obţine titlul de <strong>Capitală Culturală Europeană pentru Sibiu</strong>, în anul 2007.
+
+ Pentru program și multe alte detalii, <strong>aflați mai multe la</strong>: http://www.tnrs.ro/.
+ 
+</div>
+
+<div class="parallaxParcArka"></div>
+<div class="aranjare-buton5">
+<button type="button">Parcul Arka</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Parcul de aventură <strong>Arka Park</strong> se află în inima naturii, la doar <strong>24 de km de Sibiu</strong>, în superba zonă a <strong>Păltinișului</strong> și iși propune să maximizeze potențialul de emoție intr-un cadru natural.
+
+ Arka Park Paltiniș iți oferă o combinație interesantă de activități pentru toate vârstele, reprezentând un mod încântător de a-ți petrece timpul liber.
+ 
+ Parcul dispune de <strong>10 trasee</strong>, cu dificultăți diferite, <strong>activități în echipă</strong>, dar și de <strong>indoor climbing</strong>. Prețul unui bilet este de <strong>50 de lei</strong>,pentru <strong>3 ore(adulți)</strong>,în preț sunt incluse și accesoriile de protecție.
+ 
+ Ocazional parcul organizează și evenimente,cum ar fi <strong>"Halloween Adventure"</strong>.
+ 
+ <strong>Mai multe detalii</strong>: https://arkapark.ro/.
+</div>
+
+<div class="parallaxTraseeDrumetie"></div>
+<div class="aranjare-buton6">
+<button type="button">Trasee Montane</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Cu mai mult de <strong>500 km de trasee de drumeţie marcate</strong>, judeţul Sibiu este cu adevărat un paradis al drumeţilor: de la trasee pentru începători,
+
+ în împrejurimile staţiunii Păltiniş, la trasee de drumeţie pentru cei experimentaţi şi dornici să atingă cele mai înalte vârfuri din Carpaţii României, <strong>Vf. Negoiu (2535 m)</strong> şi <strong>Vf. Moldoveanu (2544 m) din Munţii Făgăraş</strong>. 
+ 
+ Ce spuneţi de o drumeţie pe crestele stâncoase ale munţilor Făgăraş, pe culmile mai domoale ale masivului <strong>Cindrel</strong> sau, de ce nu, pe dealurile împădurite ale <strong>Văii Hârtibaciului</strong> şi <strong>Târnava Mare</strong>?
+ 
+ Luaţi-vă rucsacul şi camera foto, şi haideţi să descoperiţi „la pas” împrejurimile Sibiului!
+</div>
+
+<div class="parallaxEchitatieSb"></div>
+<div class="aranjare-buton7">
+<button type="button">Echitație</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Echitaţia poate fi o modalitate inedită de a te relaxa, de a descoperi noi locuri frumoase, de a trăi noi experienţe şi mai ales de a-ţi face un nou prieten.
+
+ <strong>Pensiunile Brânduşa</strong> şi </strong>Ghiocelul de pe Valea Avrigului</strong> vă propun drumeţii călare prin zonele apropiate, dar şi plimbări cu căruţa şi sania trase de cai.
+
+ Prețurile sunt accesibile și sunt cuprinse <strong>între 50 si 150 de lei</strong>, <strong>pensiunea Ghiocel oferă și cazare</strong>.
+
+</div>
+
+<div class="parallaxTraseeBicicleta"></div>
+<div class="aranjare-buton8">
+<button type="button">Mountain Bike</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ La Sibiu, puteţi alege circuite ce îmbină plimbarea pe bicicletă cu vizitarea de oraşe istorice şi sate tradiţionale sau trasee care vă vor testa condiţia fizică, <strong>parcurgând şoseaua Transfăgărăşan</strong>.
+
+ Peste 250 km de trasee marcate leagă, peste dealuri, aşezări pitoreşti din <strong>arealul Mediaş – Sighişoara – Rupea</strong> (Colinele Transilvaniei). Traseul principal urmează culmea de ape dintre <strong>Târnava Mare şi Hârtibaci</strong>.
+
+ Descoperiţi <strong>satele Aţel şi Dupuş</strong> de pe <strong>Valea Târnavelor</strong>, alegând unul dintre cele trei trasee de drumeţie şi de bicicletă panoramice amenajate prin GAL Podișul Mediașului.
+
+ Pe <strong>Valea Hârtibaciului</strong>, Ferma şcoală Cornăţel propune 5 trasee de bicicletă.
+
+</div>
+
+<div class="parallaxEscapeRoomSb"></div>
+<div class="aranjare-buton9">
+<button type="button">Escape Room</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ O cameră de evadare este o cameră tematică plină cu puzzle-uri secrete și indicii unde un grup trebuie să lucreze împreună pentru a găsi și de a rezolva , în scopul de a descoperi cheia finală .
+
+ Aveți <strong>o oră</strong> pentru a descoperi toate secretele  în cameră și să lucrezi cu alții pentru a pune toate piesele împreună . Să fiti pregătiți pentru o oră interesantă de lucru în echipă , gândirea critică și rezolvarea de probleme în timp util sub presiunea intensă a unui ceas care arată 60 de minute.
+ 
+ Puteți să vă arătați priceperea într-una dintre următoarele camere: <strong>Bunker Technology</strong>, <strong>Laboratory</strong> sau <strong>The Jigsaw</strong>.
+ 
+ Prețul este în jur de <strong>50 de lei</strong>,diferând dacă participă mai multe persoane.<strong>Mai multe detalii la</strong> : http://www.xcaperoomsibiu.ro/.
+</div>
+
+
+
+<div class="parallaxPaintballSb"></div>
+<div class="aranjare-buton10">
+<button type="button">Paintball</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Dacă ești o <strong>persoană activă</strong> și iți dorești să ai parte de experiențe pline de aventură și adrenalină,Paintball-ul este perfect pentru tine.
+ 
+ Cele două terenuri de Paintball disponibile în Sibiu sunt situate la <strong>marginea orașului</strong>,unul dintre ele fiind numit <strong>Nexus</strong> iar celălalt <strong>Paintball Sibiu</strong>.
+ 
+ Ambele terenuri sunt dotate cu tot ce ține de echipament, obstacole, construcții pentru refugii.
+ 
+ Prețul unui meci cu prietenii/colegii tăi este de <strong>50 de lei</strong>, în care intră și <strong>200 de bile</strong>.
+ 
+ Rezervarea este recomandată. </br>
+<strong>Contacte</strong>: Nexus Paintball: http://nexus-paintball.ro/ , 0758 116 977; </br>
+		  -Paintball Sibiu: http://www.paintballtime.ro/  , 0760 264 589; </br>
+</div>
+
+<div class="parallaxMuzica"></div>
+<div class="aranjare-buton11">
+<button type="button">Filarmonica Sibiu</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ După un weekend plin de aventuri și distracție puteți încerca un mod plăcut de a vă relaxa, ascultând nenumăratele concerte.De la concerte de <strong>muzică clasică</strong>,
+
+ <strong>concerte estivale</strong>, <strong>concerte educative</strong> , până la nenumărate festivaluri, precum <strong>Festivalul Internațional al Artei Lirice</strong>,<strong>Festivalul Internațional George Enescu</strong>,dar și <strong>Zilele Muzicale
+
+ Romano-Americane</strong>,Filarmonica Sibiu vi le poate oferi pe toate. Este necesară cumpărarea biletelor, pentru <strong>mai multe informații</strong> : http://www.filarmonicasibiu.ro/index.php.
+
+
+</div>
+
+<div class="parallaxAlpinism"></div>
+<div class="aranjare-buton12">
+<button type="button">Alpinism</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Sunteți amatori de sporturi extreme și vă gândiți că Sibiul nu vă poate satisface din punct de vedere al "extremului"? Ei bine vă inșelați dacă ați crezut că este un oraș liniștit din punct de vedere al sporturilor.
+ 
+ Dacă alpinismul în sine alături de alpiniști,ghizi montani și salvamontiști nu vi se pare suficient, atunci puteți încerca <strong>tiroliana de la Bâlea Lac sau de la Sibiel</strong>. Sunt organizate <strong>tabere</strong>, <strong>excursii</strong> și <strong>aniversări</strong>, cu tema în discuție, pentru copii dumneavoastră.
+ 
+ Pentru cei ce nu iși doresc să urce pe munte din diferite motive, ei pot <strong>escalada in aer liber</strong> panoul din centrul orașului Sibiu.
+ 
+ <strong>Pentru mai multe informații</strong>: http://www.almontes.ro/ ; <strong>Contact</strong>: 0744 398 472.
+ </div>
+
+<div class="parallaxSporturiAeriene"></div>
+<div class="aranjare-buton13">
+<button type="button">Sporturi aeriene</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Sibiul este unul dintre județele în care puteți să încercați fiecare dintre <strong>sporturile care au tangențe cu aerul</strong>.Puteți încerca ceva mai "ușor" precum <strong>zborul cu parapanta</strong> într-una dintre locații, <strong>Air Adrenalin</strong> sau <strong>Cloudbase</strong>.
+ 
+ Pentru oamenii care iși doresc <strong>mai multă adrenalină</strong>, pot încerca <strong>săritul cu parașuta</strong>, într-un pachet care include <strong>zborul cu avionu</strong>, <strong>urcatul la 3000 de metrii</strong> și <strong>săritul din avion</strong>.Locația se cheamă <strong>Skydive Benzoi</strong>.
+ 
+ Iar pentru doritorii care vor să se relaxeze sau chiar să <strong>piloteze o aeronava ușoara/ultraușoara</strong>,cei de la <strong>"Vreau sa zbor"-Cisnadie</strong> și <strong>Sky Tour Transilvania</strong> vă pot ajuta în cel mai bun mod.
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, html  { 
+		height:100%;
+		margin:0;
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+	<meta name="pentru NavigationBar"/>
+} 
+
+.aranjare-meniu	{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.backgroundPlaja {
+	background-image: url("Plaja1Atractii.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: opacity(70%);
+
+}
+	
+.navbar {
+    overflow: hidden;
+    background-color: rgba(248, 247, 216, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 40px 45px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 40px 45px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+	background-color: rgba(255, 0, 0, 0.7);
+	<meta name="rosu cu 0.7 opacitate"/>
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.delay {
+animation-delay: 2s;
+	}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("ActivitatiPagCt/Plaja3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxVelier {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/PlimbareVelierCt2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcArch {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/ParcArheologicCt2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPonton {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/ponton-mamaia-3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxCazino {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/CazinoConstanta2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTelecondola {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/TelecondolaCt3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPaintball {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/PaintBallCt.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxAquaMa {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/AquaMagicCt3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxEscapeRoom {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/EscapeRoom1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxDelfinariu {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/Delfinariu2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcAventuraNeptun {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCt/ParcAventuraNeptun2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-left">
+
+<div class="navbar">
+	<a href="#buton1">Buton1</a>
+	<a href="#buton2">Buton2</a>
+	<div class="dropdown">
+	  <button class="dropbutton">Constanța
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiCt.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">București
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Sibiu
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Brașov
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+										
+	<div class="dropdown">
+		 <button class="dropbutton">Cluj
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="parallax1"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxVelier"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxParcArch"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxPonton"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxCazino"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxTelecondola"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxPaintball"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxAquaMa"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxEscapeRoom"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxDelfinariu"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+<div class="parallaxParcAventuraNeptun"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+Constanța, frumosul oraș de pe țărmul Mării Negre, este un puternic centru economic și cultural dar și un important centru al evenimentelor din Romania,grație amplasării sale.
+
+Pentru turiști, dar și pentru constănțeni, există o mulțime de cluburi si locații unde pot participa la evenimente din cea mai variată gamă.
+
+În cele ce urmează vă vom prezenta cele mai importante activități pe care le puteți face in Constanța.
+
+</div>
+
+</body>
+</html>

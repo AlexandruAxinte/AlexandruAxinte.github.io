@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  // slow scroll la toate linkurile
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+     
+      event.preventDefault();
+      var hash = this.hash;
+      //1500 milisecunde pentru scroll
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+   
+       //Adauga "#" la URL cand termina de scrollat
+        window.location.hash = hash;
+      });
+    } // Sarsitul If
+  });
+});
+</script>
+</head>
+<style>
+
+body {
+	 background-image:url("ZoneDeVizitatCt/background2.jpg");
+	  background-attachment: fixed;
+	  background-size: cover;
+	margin:0px;
+	}
+
+
+	
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+	<meta name="pentru NavigationBar"/>
+} 
+
+	
+.navbar {
+    overflow: hidden;
+    background-color: rgba(248, 247, 216, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 40px 45px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 40px 45px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+	background-color: rgba(255, 0, 0, 0.7);
+	<meta name="rosu cu 0.7 opacitate"/>
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+	
+.floated_img1 
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/EdificiuRoman2.1.jpg");
+		
+		
+	}
+	
+	.floated_img2
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/IstorieSiArheologie2.1.jpg");
+		
+	}
+	
+	.floated_img3
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/Microrezervatie4.1.jpg");
+		
+	}
+	
+	.floated_img4
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/MoscheeCarol1.1.jpg");
+		
+	}
+	
+	.floated_img5
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/MuzeulNautic1.1.jpg");
+		
+	}
+	
+	.floated_img6
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/MuzeuArta4.1.jpg");
+		
+	}
+	
+	.floated_img7
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/Planetariu2.1.jpg");
+		
+	}
+	
+	.floated_img8
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/CheileDobrogei4.1.jpg");
+		
+	}
+	
+	.floated_img9
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/CetateaHistria2.1.jpg");
+		
+	}
+	
+	.floated_img10
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/MonumentTraian3.1.jpg");
+		
+	}
+	
+	.floated_img11
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/DuneleMarineAgigea3.1.jpg");
+		
+	}
+	
+	.floated_img12
+	{
+		float: left;
+		background-image:url("ZoneDeVizitatCt/InsulaOvidiu1.1.jpg");
+		
+	}
+	
+.text{
+	width:350px;
+	height:233px;
+	background:green;
+	opacity:0;
+}
+
+.floated_img1:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+
+.floated_img2:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img3:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+
+.floated_img4:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+
+.floated_img5:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img6:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img7:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img8:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img9:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+
+.floated_img10:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img11:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+	
+	.floated_img12:hover .text 
+	{
+	opacity:0.7;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-weight:1000;
+	font-family:"Times New Roman";
+	box-shadow: 0 0 0 10px #000000;
+	transition: .5s ease-in-out;
+}
+
+.spatiu_bottom {
+     margin-bottom: 250px;
+	 text-align:center;
+  }
+	
+	a {text-decoration: none;}
+	
+	strong:hover {color: red; transition:.5s;}
+	
+	
+.imgMove {
+		position: relative;
+		left:180px;
+		top:2px;
+	}
+	
+p {
+	font-family: Georgia;
+}
+	
+
+.shadow {
+   box-shadow: 5px 8px 16px 5px rgba(0,0,0,0.4);
+}
+	
+</style>
+</head>
+
+<body>
+
+<div class="BackG">
+</div>
+
+<div class="top-left">
+
+<div class="navbar">
+	<a href="Incercare1.html">Home</a>
+	<a href="#buton2">Buton2</a>
+	
+	<div class="dropdown">
+	  <button class="dropbutton">Constanța
+	  <i class="fas fa-angle-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiCt.html">Activități</a>
+		<a href="ZoneDeVizitatConstanta.html">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">București
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Sibiu
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Brașov
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+										
+	<div class="dropdown">
+		 <button class="dropbutton">Cluj
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+<div class="floated_img1" style="margin:600px 30px 15px 190px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey1" style="color:black"><strong>Edificiul Roman</strong></a></a>
+	</div>
+</div>
+
+<div class="floated_img2" style="margin:600px 30px 15px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey2" style="color:black"><strong>Istorie si Arheologie</strong></a>
+	</div>
+</div>
+
+	<div class="floated_img3" style="margin:600px 130px 15px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey3" style="color:black"><strong>Microrezervație</strong></a>
+	</div>
+</div>
+
+<div class="floated_img4" style="margin:60px 30px 15px 190px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey4" style="color:black"><strong>Moschee Carol</strong></a>
+	</div>
+</div>
+	
+	<div class="floated_img5" style="margin:60px 30px 15px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey5" style="color:black"><strong>Muzeul Nautic</strong></a>
+	</div>
+</div>
+
+	<div class="floated_img6" style="margin:60px 130px 15px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey6" style="color:black"><strong>Muzeul de Arta</strong></a>
+	</div>
+</div>
+
+	<div class="floated_img7" style="margin:60px 30px 15px 190px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey7" style="color:black"><strong>Planetariu</strong></a>
+	</div>
+</div>
+
+<div class="floated_img8" style="margin:60px 30px 15px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey8" style="color:black"><strong>Cheile Dobrogei</strong></a>
+	</div>
+</div>
+	
+	<div class="floated_img9" style="margin:60px 130px 15px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey9" style="color:black"><strong>Cetatea Histria</strong></a>
+	</div>
+</div>
+	
+		<div class="floated_img10" style="margin:60px 30px 100px 190px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey10" style="color:black"><strong>Monumentul Traian</strong></a>
+	</div>
+</div>
+	
+		<div class="floated_img11" style="margin:60px 30px 100px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey11" style="color:black"><strong>Dunele Marine Agigea</strong></a>
+	</div>
+</div>
+	
+		<div class="floated_img12" style="margin:60px 130px 100px 13px">
+	<div class="text">
+	</br>
+	
+	<a href="#hey12" style="color:black"><strong>Insula Ovidiu</strong></a>
+	</div>
+</div>
+
+<!-- 1 -->
+<p class="spatiu_bottom"><font size="7">Zone de vizitat</font></p>
+<h1 id="hey1" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Edificiul Roman cu Mozaic</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> este situat in imediata vecinătate a Muzeului de Istorie Naționala si Arheologie și a fost descoperit in anul 1959,
+ in timpul unor lucrări edilitare desfășurate in Piața Ovidiu. Cercetările ulterioare descoperirii atestă că monumentul
+ a fost construit in secolul al IV-lea si extins treptat până in jurul secolului al VI-lea, atunci când  a incetat să mai funcționeze.
+ In vremurile sale de glorie edificiul reprezenta cea mai mare construcție de acest gen din întregul Imperiu Roman și servea ca punct de 
+ legătură intre port și orașul antic, fiind locul în care se desfășurau activitățile de comerț și depozitare a mărfurilor.</font></p>
+
+<img src="ZoneDeVizitatCt/EdificiuRoman3.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+<!-- 2 -->
+<h1 id="hey2" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Muzeul de Istorie si Arheologie</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> a fost înființat în anul 1878 prin grija primului prefect al administrației
+ românești în Dobrogea: Remus Opreanu și a inspectorului școlar Ion Bănescu. Este unul dintre cele mai bogate muzee din țară. În acesta, sunt expuse piese neolitice din culturile Hamangia și Gumelnița,
+ unelte agricole din perioada sclavagistă, sarcofage datate ca aparținând secolelor I - III, amfore greco-romane, statuete reprezentând zeități grecești și opere de artă. Șarpele Glykon lucrat în marmură albă 
+ și colecția de monede gravate cu regii sciți sunt cele mai renumite.
+ Clădirea muzeului a fost construită în 1879 și refăcută de Vasile Pârvan în 1911, fiind în prezent monument istoric.
+ Cea mai importantă piesă din colecția Muzeului de Istorie Națională și Arheologie Constanța este șarpele Glykon, statuie unică în lume, descoperită întâmplător la 1 aprilie 1962.</font></p>
+
+<img src="ZoneDeVizitatCt/IstorieSiArheologie4.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 3 -->
+<h1 id="hey3" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Microrezervația </font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia>  din cadrul Complexului Muzeal de Științe ale Naturii este un loc unic in Constanța.
+ Inaugurată in anul 1985, Microrezervația se întinde pe o suprafață de cca 6 ha din care 2 ha reprezintă luciu de apă cu vegetație specifică. Acest obiectiv a fost creat din ideea
+ de a oferi vizitatorilor o imagine cât mai completă asupra naturii dobrogene.
+ Patrimoniul muzeului cuprinde avifauna acvatică (pelicani, lebede, rațe și gâște sălbatice), avifauna terestră (păuni si fazani) si mamifere (mufloni, cerbi lopătari și căprioare),
+ care se regăsesc in Rezervația Biosferei Delta Dunării si Rezervația Negureni. Mare parte din aceste exemplare sunt monumente ale naturii și specii rare cu o reprezentare tot mai redusă in stare liberă.</font></p>
+
+<img src="ZoneDeVizitatCt/Microrezervatie5.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 4 -->
+<h1 id="hey4" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Moscheea Carol</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia>  amplasata in Piața Ovidiu, este principalul edificiu de cult musulman din țara și totodată unul dintre cele mai frumoase monumente arhitectonice 
+ de pe meleagurile noastre.  Lucrările de ridicare a clădirii au inceput în 1910, la inițiativa regelui Carol I (motiv pentru care edificiul îi poartă numele) și au fost incheiate în anul 1913. Inaugurarea a avut loc pe data de 31 mai 
+ in prezența familiei regale și a reprezentanților cultului musulman în Romania.
+ Proiectul moscheei a fost realizat de către Victor Ștefanescu, unul dintre arhitecții de rang ai începutului de secol XX, iar construcția a fost ridicată de Gogu Constantinescu.
+ Împărtășind un frumos și unic amestec de elemente arhitecturale egipteano-bizantine și românești, Moscheea Carol I este prima clădire din țara noastră pentru a cărei construcții a fost folosit betonul armat.
+ Un element distinctiv al edificiului este imensa cupolă, construită din inovatorul material menționat mai sus. Deși specifică multor lăcașe de cult musulman, cupola este un element arhitectural de inspirație creștină, mai exact, bizantină.</font></p>
+
+<img src="ZoneDeVizitatCt/MoscheeCarol3.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 5 -->
+<h1 id="hey5" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Muzeul Nautic</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> a fost înființat prin Hotărârea Consiliului de Miniștri din 29 mai 1969, ca instituție de profil de importanță republicană/națională - muzeu de categoria I,
+ prin specificul său, unicat în țară, în prezent constituind rețeaua muzeală militară, împreună cu Muzeul Militar Național "Regele Ferdinand I" și Muzeul Aviației.
+ Instituția îndeplinește cumulativ următoarele funcții: constituirea, conservarea și restaurarea patrimoniului muzeal; evidența, protejarea, cercetarea și dezvoltarea patrimoniului muzeal;
+ punerea în valoare a patrimoniului muzeal în scopul cunoașterii, educării și recreerii publicului; promovarea trecutului navigației și a istoriei Marinei Române de la începuturi și până în contemporaneitate. 
+ Ca unitate militară, Muzeul Marinei Române este instituția specializată a Statului Major al Forțelor Navale în probleme de cultură, cercetare și documentare muzeografică și istorico-militară. 
+ Prin toate acestea, instituția păstrează memoria înaintașilor pentru generațiile viitoare, înscriindu-le efortul, strădania și reușitele în patrimoniul universal.</font></p>
+
+<img src="ZoneDeVizitatCt/MuzeulNautic2.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 6 -->
+<h1 id="hey6" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Muzeul de Arta</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> înfiinţat în anul 1961 cu un patrimoniu modest, aparţinând vechilor pinacoteci din Constanţa şi Balcic (deschise în anii 1935 – respectiv 1937),
+ Muzeul de Artă oferă publicului de pretutindeni peste un secol din evoluţia picturii, sculpturii şi graficii româneşti (circa 1840 – 1950), încercând în acelaşi timp să arate şi să fixeze prin opere de referinţă,
+ locul şi rolul Dobrogei, al peisajului de inspiraţie marină în contextul creaţiei naţionale.
+ Expoziţia de bază a muzeului constănţean este structurată pe nuclee monografice/ săli ale maeştrilor şi sugerează o imagine complexă a creaţiei fiecăruia, dar şi a direcţiilor de evoluţie din perioada modernă a artei româneşti.</font></p>
+
+<img src="ZoneDeVizitatCt/MuzeuArta3.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 7 -->
+<h1 id="hey7" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Planetariul</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> face parte din Complexul Muzeal de Știinte ale Naturii, el vă invită intr-o călătorie de inițiere în tainele ascunse ale boltei cerești.
+ Ca intr-o fereastră deschisă către cer vi se vor prezenta stele, planete, meteori, galaxii și alte corpuri cerești care veghează omenirea de mii de ani.
+ Planetariul a luat ființă in 1969, anul in care omul a pășit pentru prima dată pe Luna. Amplasat la intersecția bulevardului Mamaia cu strada Soveja, 
+ aproape de intrarea sudică în stațiunea Mamaia, destăinuie și astăzi misterele greu de pătruns ale cerului.
+ Planetariul dispune de o cupolă al cărei diametru are 8 metri și o capacitate de 80 de locuri, loc in care se realizează demonstrații. În cadrul acestor demonstrații vizitatorii pot urmari proiectia unui cer instelat pe o boltă artificială.
+ La intrare în Observator, se poate vizita o expoziție care prezintă structura Universului, pornind de la metagalaxie pana la structura Sistemului Solar, prezentând planetele în imagini,
+ alături de caracteristicile lor. Tot în cadrul Observatorului Astronomic se află cupola pentru observații astronomice. Aceasta are un diamentru de 5 metri și adăpostește un Telescop cu oglindă tip Cassegrain.</font></p>
+
+<img src="ZoneDeVizitatCt/Planetariu3.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 8 -->
+<h1 id="hey8" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Cheile Dobrogei</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia>  aflate în custodia RNP Direcţia Silvică Constanţa, se întind pe o suprafaţă de 285 de hectare, speciile de fosile care se găsesc în pereţii calcaroşi
+ fiind unice în ţară şi perfect conservate. Formaţiunile muntoase din zonă sunt foste recifuri coraliere ale Mării Thetis.Rezervaţia este formată din calcare din perioada jurasicului, aici găsindu-se o faună şi o floră de interes deosebit.
+ Calcarele cheilor reprezintă rămăşiţe de atoli, ceea ce justifică forma semirotundă a pereţilor. Pereţii sunt orientaţi est/vest şi nu au o înălţime mai mare de 40m. Platourile calcaroase cu forme ciudate, bătute de trecerea apei,
+ care mărginesc de o parte şi de alta şoseaua. Alături de frumuseţile naturale, zona este presărată şi cu numeroase urme arheologice, în special cele găsite în peşterile presărate de-a lungul Cheilor Dobrogei 
+ - resturi de unelte, vânat şi chiar urme osteologice ale tipului de oameni care populau această zonă în epoca preistorică. </font></p>
+
+<img src="ZoneDeVizitatCt/CheileDobrogei3.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 9 -->
+<h1 id="hey9" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Cetatea Histria</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia>  a fost intemeiată in anul 657 i.Hr. pe malul lacului Sinoe de către coloniștii greci din Milet (Asia Mica),
+ ca port la Marea Neagră. A fost prima colonie greacă din vestul Mării Negre. Grecii îi spuneau Dunarii Istros – și de aici, cetatea a primit numele de Istria. Timp de vreo 1300 de ani,
+ cetatea s-a bucurat de o continuă dezvoltare – era structurată în două părți distincte (acropola și așezarea civilă), la fel ca multe alte orașe antice grecești, structura care s-a păstrat până in secolul VII d.Hr.,
+ când orașul a fost abandonat din cauza colmatării vechiului golf al Mării Negre (laguna Razelm-Sinoe de astăzi). Tot în perioada sa de glorie au apărut și primele monede 
+ de pe teritoriul României (între anii 480-475 i.Hr.), iar numărul locuitorilor Histriei ajunsese la aproape 25.000.Mai aproape de zilele noastre, în 1868, cetatea a fost
+ identificată de arheologul francez Ernest Desjardins, dar cercetările propriu-zise au început în 1914, la inițiativa lui Vasile Pârvan – cel care avea să o considere,
+ pe buna dreptate, Pompeiul românesc. Interesant este că și în ziua de azi, arheologii tot mai descoperă câte un artefact în acel sit.</font></p>
+
+<img src="ZoneDeVizitatCt/CetateaHistria4.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 10 -->
+<h1 id="hey10" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Monumentul Traian</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> situat lângă satul Adamclisi, la 60 de km de Constanța, monumentul are o origine controversată, 
+ unii datându-l dinainte de era noastră , alții plasându-l în sec IV, în timpul domniei împăratului Constantin.
+ Din cercetările recente s-a ajuns la concluzia ca monumentul a fost construit în jurul anului 109, cam în aceeași perioadă cu Columna lui Traian din Forumul de la Roma.
+ Razboaiele daco-romane și victoria lui Traian urmată de cucerirea Daciei a fost considerată ca fiind cea mai importantă bătălie și a fost sarbatorită cu mare fast la Roma.
+ În urma acestui război, Imperiul Roman a ajuns la apogeul puterii sale, fiind singurul razboi în urma căruia s-au construit toate monumentele mărețe:
+ Columna lui Traian din Forumul de la Roma și Tropaeum Traiani de la Adamclisi.</font></p>
+
+<img src="ZoneDeVizitatCt/MonumentTraian2.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 11 -->
+<h1 id="hey4" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Dunele Marine Agigea</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia>  sunt protejate pentru a da o șansă de supraviețuire unei infinitezimale frânturi a biodiversității acestui tip de peisaj.
+ Aceste dune sunt constituite din acumularea nisipului adus de vânt dinspre golful marin care se afla la nord de actuala rezervație. Zona are o altitudine de 12-14 m,
+ fiind situată la cca 200-300 m de actuala linie a țărmului mării; substratul este constituit din nisipuri și soluri nisipoase. Temperatura medie anuală a zonei este de 11,2 grade C,
+ dar vara nisipul poate ajunge și la 42 grade; precipitațiile medii anuale sunt la 378 mm.Până acum sunt cunoscute de aici 416 specii de nevertebrate (dintre care 348 specii de insecte), 3 specii de amfibieni, 6 specii de reptile, 
+ 54 specii de păsări, 15 specii de mamifere. Dintre reptile, de menționat este prezența țestoasei dobrogene , dar este prezent și șarpele rău, gușterul , șopârla de iarbă  și probabil și vipera de stepă.</font></p>
+
+<img src="ZoneDeVizitatCt/DuneleMarineAgigea4.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+
+<!-- 12 -->
+<h1 id="hey12" style="color:rgb(153, 19, 137);" class="imgMove"><font size="7"> Insula Ovidiu</font></h1>
+
+<p style="margin:60px 590px 100px 190px" ><font size="6" font-family: Georgia> din Lacul Siutghiol este unul dintre locurile care exercită o adevărată atracție asupra turiștilor care sosesc în stațiunea Mamaia. 
+ De-a lungul timpului, micul petic de pământ a stârnit curiozitatea și imaginația oamenilor, care au țesut în jurul său o serie de legende. Una dintre aceste poveștiri are legatură 
+ cu originea numelui pe care îl poartă insula. Se spune că, în timpul exilului său, poetul Ovidius Publius Naso se retrăgea pe acest petic de pământ pentru a-și scrie versurile, astfel insula a fost botezată cu numele său.
+ În realitate, specialiștii nu au găsit nicio dovadă care să ateste prezența poetului Ovidius pe această mică insulă din lacul Siutghiol. Cu toate acestea, legenda a rămas în picioare până în zilele noastre și mai există înca oameni care cred cu tărie în veridicitatea ei.
+ În secolele trecute insula era populată de pescari care iși construiau aici adăposturi, dar și de grădinari care profitau de solul fertil al insulei. Odată cu identificarea potențialului său turistic,
+ Insula lui Ovidius a fost transformată într-un loc de relaxare pentru turiști, păstrandu-și această intrebuințare și astăzi.Pentru a ajunge pe insulița bogată în vegetație aveți la dispoziție un vaporaș care pleacă din zona Cazino,
+ la intervale regulate de timp. Până să ajungeți pe insulă vă asteaptă o plimbare liniștită pe lac. Pe Insula lui Ovidiu este amenajat un frumos complex turistic, iar cei care doresc au posibilitatea să rămână aici câteva zile.
+ Restaurantul rustic al complexului servește în principal preparate din pește, iar în fiecare seară o formație de muzică întreține atmosfera.</font></p>
+
+<img src="ZoneDeVizitatCt/InsulaOvidiu3.jpg" class="imgMove shadow" height="400" width="704" style="margin:60px 0px 100px 13px" >
+
+</body>
+</html>
+

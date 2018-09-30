@@ -1,0 +1,722 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, html  { 
+		height:100%;
+		margin:0;
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+	<meta name="pentru NavigationBar"/>
+} 
+
+.aranjare-buton1 {
+    position: absolute;
+    top: 1000px;
+    left: 540px;
+} 
+
+.aranjare-buton2 {
+    position: absolute;
+    top: 1820px;
+    left: 570px;
+} 
+
+.aranjare-buton3 {
+    position: absolute;
+    top: 2600px;
+    left: 595px;
+}
+
+.aranjare-buton4 {
+    position: absolute;
+    top: 3400px;
+    left: 630px;
+}
+
+.aranjare-buton5 {
+    position: absolute;
+    top: 4200px;
+    left: 580px;
+}
+
+.aranjare-buton6 {
+    position: absolute;
+    top: 5000px;
+    left: 660px;
+}
+
+.aranjare-buton7 {
+    position: absolute;
+    top: 5800px;
+    left: 535px;
+}
+
+.aranjare-buton8 {
+    position: absolute;
+    top: 6600px;
+    left: 550px;
+}
+
+.aranjare-buton9 {
+    position: absolute;
+    top: 7400px;
+    left: 575px;
+}
+
+.aranjare-buton10 {
+    position: absolute;
+    top: 8200px;
+    left: 555px;
+}
+
+.aranjare-buton11 {
+    position: absolute;
+    top: 9000px;
+    left: 480px;
+}
+
+.aranjare-buton12 {
+    position: absolute;
+    top: 9800px;
+    left: 570px;
+}
+
+.aranjare-buton13 {
+    position: absolute;
+    top: 10600px;
+    left: 580px;
+}
+
+.aranjare-buton14 {
+    position: absolute;
+    top: 11400px;
+    left: 640px;
+}
+
+.aranjare-buton15 {
+    position: absolute;
+    top: 12200px;
+    left: 560px;
+}
+
+.aranjare-buton16 {
+    position: absolute;
+    top: 13000px;
+    left: 590px;
+}
+
+.aranjare-buton17 {
+    position: absolute;
+    top: 13800px;
+    left: 610px;
+}
+
+.aranjare-buton18 {
+    position: absolute;
+    top: 14600px;
+    left: 610px;
+}
+
+.aranjare-buton19 {
+    position: absolute;
+    top: 15400px;
+    left: 610px;
+}
+
+.aranjare-meniu	{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.backgroundPlaja {
+	background-image: url("Plaja1Atractii.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: opacity(70%);
+
+}
+	
+.navbar {
+    overflow: hidden;
+    background-color: rgba(248, 247, 216, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 40px 45px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 40px 45px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+	background-color: rgba(255, 0, 0, 0.7);
+	<meta name="rosu cu 0.7 opacitate"/>
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.delay {
+animation-delay: 2s;
+	}
+
+.parallax1 {
+    /* Imaginea folosita */
+    background-image: url("ActivitatiPagCj/Cluj4.jpg");
+
+    /* Marimea specifica */
+    min-height: 500px; 
+
+    /* Efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+.parallaxPadureaBaciu {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/PadureaBaciu1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxWonderlandCluj{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/Wonderland2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcCentral {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/ParcCentralCluj4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSkiCj {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/SchiatCluj1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxLaserTag{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/LaserTagCluj4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPaintballAirsoft {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/WarzoneCluj2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPatinoarCj {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/PatinoarPiataUnirii2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSaltResort{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/SaltResortCojocna2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPoligonTragereCj {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/PoligonTragere1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxAdrenalinaParkCj {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/AdrenalinaPark4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSungardenResort {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/SunGardenResort1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSmidaPark {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/SmidaPark1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxBazaSportiva {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/BazaSportivaGheorgheni1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSporturiTXA {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagCj/SporturiExtremeTXA1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+button {
+    background-color:rgba(101, 237, 27,0.5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 40px;
+	border-radius: 50%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-left">
+
+<div class="navbar">
+	<a href="Incercare1.html">Home</a>
+	<a href="#buton2">Buton2</a>
+	<div class="dropdown">
+	  <button class="dropbutton">Constanța
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiCt.html">Activități</a>
+		<a href="ZoneDeVizitatConstanta.html">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">București
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiBv.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Sibiu
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiSb.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Brașov
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiBv.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+										
+	<div class="dropdown">
+		 <button class="dropbutton">Cluj
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="parallax1"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>Cluj-Napoca</strong> este situat în <strong>Transilvania</strong>, fiind considerat capitala neoficială a acesteia. Un oraș plin de istorie și de cultură din țara noastră,care merită în totalitate vizitat. El a experimentat un declin în anii 1990, reputația sa internațională având de suferit datorită primarului său de atunci
+ 
+ Gheorghe Funar. Astăzi, orașul este unul dintre cele mai importante centre de <strong>academie</strong>,<strong>culturale</strong>,<strong>industriale</strong> și <strong>de afaceri din Romania</strong>. Clujul este orașul care a cunoscut cea mai mare dezvoltare în ultimul deceniu din România. 
+ 
+</div>
+
+
+
+<div class="parallaxPadureaBaciu"></div>
+<div class="aranjare-buton1">
+<button type="button">Pădurea Hoia-Baciu</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ În inima Ardealului, într-o zonă cu aparență atemporală, se găsește, probabil, <strong>cel mai misterios loc din România</strong>. Multă cerneală a curs pe marginea subiectului pădurii Hoia-Baciu, la fel cum mulți pași ai curioșilor au străbătut această poartă între lumi, în speranța surprinderii unei <strong>fărâme de paranormal</strong>. 
+ 
+ Pădurea Hoia-Baciu, este cu siguranță cea mai faimoasă locație din România, unde au fost investigate și analizate o serie de <strong>fenomene absolut inexplicabile</strong>.
+ 
+ Zona a devenit faimoasă de abia în anul 1968,deși localnicii știau de existența sa din cele mai vechi timpuri, <strong>ferindu-se de ea ca de un loc rău</strong>.
+
+</div>
+
+
+
+<div class="parallaxWonderlandCluj"></div>
+<div class="aranjare-buton2">
+<button type="button">Wonderland Cluj</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>Wonderland Cluj Resort</strong> se află pe un tărâm scos parcă din <strong>lumea basmelor</strong>, după cum bine îi zice și numele. Este una dintre puținele resorturi din România care oferă atât de multe lucruri într-un singur loc:
+ 
+ de la <strong>SPA</strong>,<strong>masaj</strong>,<strong>echitație</strong>,<strong>zborul cu balonul</strong>, la <strong>tiroliană</strong>,<strong>mini gradină zoo</strong>, <strong>lac cu lebede</strong>, <strong>fitness</strong>,<strong>jacuzzi</strong>. Puteți să vă petreceți vacanțe și de o săptămână aici, pentru că tot veți mai avea de încercat ceva.
+ 
+ Pentru a ajunge în acest tărâm,trebuie să părăsiți orașul,urcați pe Calea Turzii,spre <strong>dealul Feleacului</strong>.
+ 
+ <strong>Mai multe detalii găsiți la</strong>: https://www.wonderlandcluj.ro/rad/.
+ 
+ 
+
+</div>
+
+<div class="parallaxParcCentral"></div>
+<div class="aranjare-buton3">
+<button type="button">Parcul Central</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Parcul Central "<strong>Simion Bărnuțiu</strong>” sau Parcul Mare, așa cum mai este el numit, este o adevărată oază de relaxare pentru clujeni, precum și unul dintre obiectivele turistice aflate, de obicei, pe lista celor care vizitează Clujul.
+ 
+ Istoria parcului se întinde pe o perioadă de peste 185 de ani.
+ 
+ Fie că participi la <strong>evenimente</strong>, fie că vara te relaxezi <strong>în preajma lacului</strong> și, eventual, <strong>te plimbi cu barca</strong>, fie că te retragi pe o băncuță și profiți de <strong>liniștea</strong> și protecția bătrânilor copaci, fie că, iarna, în zilele cu ninsoare, te pierzi fascinat pe <strong>alei feerice</strong>, rupte dintr-un basm parcă, Parcul Central pare nemuritor.
+
+</div>
+
+
+
+<div class="parallaxLaserTag"></div>
+<div class="aranjare-buton4">
+<button type="button">Laser Tag</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Ai vestă pe tine, pistolul în mână, iar ceea ce trebuie să faci este să țintești adversarii și să ieși primul în topul <strong>Laser Megazone</strong>!
+ 
+ Laser Megazone este locul unde poți veni cu familia, la o aniversare <strong>în stil laser</strong>, cu prietenii sau colegii de serviciu. Este locul în care copilul tău
+
+ iși poate serba ziua de naștere alături de amicii săi, bucurându-se de un echipament <strong>complet adaptat pentru copii</strong>. La Laser Megazone poți avea ocazia de a-ți <strong>“ciurui” șeful</strong>, după care să-l împaci la o bere, ca într-un adevărat teambuilding.
+ 
+ Jocul de Laser Tag poate fi jucat de oricine se simte capabil să intre într-o <strong>lume a viitorului</strong>, a <strong>armelor laser</strong> și a <strong>confruntărilor stelare</strong>.
+ 
+ <strong>Mai multe detalii la</strong>: https://lasermegazone.ro/ .
+</div>
+
+<div class="parallaxPaintballAirsoft"></div>
+<div class="aranjare-buton5">
+<button type="button">Paintball/Airsoft</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>War-Zone</strong> iți oferă două terenuri, în total de 15.000 mp, cu posibilitatea de a petrece o zi frumoasă într-o atmosferă placută și plină de adrenalină.
+ 
+ <strong>Foișoare</strong>,<strong>bunkere</strong>,<strong>tranșee</strong>,<strong>copaci</strong>,<strong>mașini abandonate</strong>,<strong>grătare</strong>,<strong>foc</strong>! Tot ce trebuie pentru un joc reușit de <strong>paintball</strong> sau <strong>airsoft</strong>.
+ 
+ Un joc de Paintball sau Airsoft presupune forță și viteză de reacție, strategie, adrenalină și multă distracție! Însa cel mai important este <strong>munca în echipă</strong>.
+ 
+ Prețurile sunt atrăgătoare, pentru meciurile de airsoft variind în funcție de numărul de bile, de la <strong>40 de lei</strong> la <strong>70 de lei</strong>,iar la meciul de paintball de la <strong>30 la 80 de lei</strong>.
+ 
+ <strong>Mai multe detalii la</strong>: http://paintball-airsoft.ro/ sau <strong>Contact</strong> prin: 0740 249 225.
+</div>
+
+<div class="parallaxPatinoarCj"></div>
+<div class="aranjare-buton6">
+<button type="button">Patinaj</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>Patinoar Cluj Piața Unirii</strong> invită oamenii an de an să se bucure de iarnă, dar și de <strong>Târgul de Crăciun</strong>, în timp ce alunecă pe gheață. Patinoar Club Arena se află în Piața Unirii din Cluj și în acest an, fiind deschis zilnic pentru cei care vor să facă puțină mișcare și pe timp de iarnă.
+ 
+ Patinuarul din Piața Unirii a fost amplasat în jurul ansamblului statuar <strong>Matia Corvin</strong>.
+ 
+ Pentru a te bucura de patinaj trebuie să știi orarul. În fiecare zi sunt mai multe serii,fiecare serie durand <strong>1 oră și 30 de minute</strong>.De <strong>luni până vineri</strong> programul este de la <strong>14:00-22:00</strong>,iar în <strong>weekend</strong> de la <strong>10:00-22:00</strong>. Prețul unei serii este de <strong>15 lei pentru adulți</strong>,respectiv <strong>10 lei pentru copii</strong>. <strong>Închiriatul patinelor este 10 lei</strong>.
+
+</div>
+
+<div class="parallaxSaltResort"></div>
+<div class="aranjare-buton7">
+<button type="button">Salt Resort Cojocna</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Dacă doriti să evadați din orașul monoton și sumbru și să vă relaxați pe deplin într-un loc diferit,atunci <strong>Salt Resort Cojocna</strong> este locul perfect pentru dumneavoastră.
+ 
+ Salt Resort Cojocna, o lume plină de surprize, cu <strong>pereți stâncoși</strong>, <strong>cascade</strong>, <strong>saune</strong>, <strong>jacuzzi</strong> și <strong>apă caldă</strong>. Puteți respira aer sărat în camera cu sare special amenajată pentru haloterapie, puteți să inotați, sa vă relaxați, sau vă puteți răsfăța pe șezlong cu un fresh. Pe scurt: <strong>un loc de evadare</strong>!
+
+ Prețurile de cazare sunt foarte accesibile,pentru o zonă care vă va destinde complet. <strong>Mai multe detalii găsiți la</strong> : http://saltresort.ro/.
+</div>
+
+<div class="parallaxPoligonTragereCj"></div>
+<div class="aranjare-buton8">
+<button type="button">Poligon de Tragere</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ Poligonul de tragere indoor a fost înfiinţat în cursul anului 2012, având ca scop promovarea tirului sportiv in Cluj Napoca. Chiar dacă <strong>nu deţineţi un permis de port armă sau cunoştinţe în domeniu</strong>, dar sunteţi curioşi
+
+ şi doriţi să încercaţi pentru prima dată emoţiile folosirii unei arme adevărate, atunci locul perfect este poligonul de trageri de pe strada Calea Baciului, unde puteţi beneficia de <strong>instruire privind trageri de precizie</strong> sau <strong>de ripostă</strong>, mânuirea în condiţii de maximă siguranţă a armamentului cu personal specializat. 
+ 
+ <strong>Mai multe detalii găsiți la</strong>: http://www.poligondetircluj.ro/.
+ 
+</div>
+
+
+
+<div class="parallaxAdrenalinaParkCj"></div>
+<div class="aranjare-buton9">
+<button type="button">Adrenalina Parc</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>Parcul Adrenalina</strong> te întâmpină cu un set de <strong>13 cursuri</strong> care te vor ajuta să te implici cât mai mult în traseele propuse pentru tine. <strong>3 cursuri pentru copii</strong>, <strong>un curs de inițiere pentru adulți</strong>,<strong>7 cursuri de diferite nivele și dificultăți </strong>
+ 
+ si <strong>2 cursuri de tipul "vulpei zburatoare"</strong>. Fiecare nivel și curs are la dispoziție <strong>diferite "jocuri"</strong> pentru a-l face cât mai interesant.
+ 
+ Prețurile sunt de <strong>45 de lei pentru adulți</strong>, și <strong>35 de lei pentru copii sub 140 cm</strong>. În acest preț participantul poate încerca orice traseu,ținând cont de <strong>bariera de vârstă</strong>, <strong>timp de două ore</strong>. În preț este inclus tot <strong>echipamentul de siguranță</strong> necesar activităților.
+</div>
+
+<div class="parallaxSungardenResort"></div>
+<div class="aranjare-buton10">
+<button type="button">Sungarden Resort</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>SunGarden Golf & SPA Resort Sport & Agrement</strong> oferă facilităţi de interior diverse. Prioritate în accesul la aceste facilităţi au oaspeţii hotelului şi oaspeţii spa.
+ 
+ Vă puteţi consolida corpul în <strong>zona de fitness</strong> sau să <strong>vă relaxaţi în zona SPA</strong>. În plus, vom organiza, de asemenea, excursii distractive pentru a explora judeţul Cluj
+
+ sau regiunea Transilvania. Veţi descoperi legendele locului, vestigiile sale şi multe monumente ale naturii. Călătorind de unul singur sau în cuplu, cu prietenii sau familia veţi explora diferite perspective cu privire la cultură şi tradiţiile locale.
+ 
+ Sau puteți încerca pentru prima oară și <strong>terenul de golf</strong>,unde se țin adesea competiții.
+ 
+ <strong>Mai multe detalii găsiți la</strong>: https://sungardenresort.ro/.
+ 
+</div>
+
+
+<div class="parallaxBazaSportiva"></div>
+<div class="aranjare-buton11">
+<button type="button">Baza Sportivă Gheorgheni</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ 
+ Turiștii dar și clujenii pot încerca să-și petreacă timpul liber la <strong>Baza Sportivă Gheorgheni</strong> ,nu doar datorită faptului că este cea mai nouă și mai dotată bază sportivă din Cluj-Napoca
+ 
+ dar și pentru a încerca să vă inițiați în diferitele sporturi de care dispune terenul:<strong>baschet</strong>,<strong>fotbal</strong>,<strong>popice</strong>,<strong>tenis</strong>,<strong>tenis cu peretele</strong>,<strong>tenis de masă</strong>,<strong>toate fiind gratuite</strong>.
+ 
+ Pentru a rezerva un teren pentru un meci trebuie <strong>creat un cont pe platforma online de rezervări</strong>, și rezervarea poate fi făcută doar pentru săptămâna în curs sau săptămâna următoare,<strong>după locurile disponibile</strong>.
+ 
+ <strong>Rezervările dar și mai multe detalii găsiți aici</strong>: https://www.calendis.ro/cluj-napoca/baza-sportiva-gheorgheni/b.
+ 
+</div>
+
+<div class="parallaxSporturiTXA"></div>
+<div class="aranjare-buton12">
+<button type="button">Sporturi Extreme</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+ <strong>TXA</strong> a luat naștere în 2010 din dorința de a arăta oamenilor că există și un alt mod de ați petrece timpul liber, un mod mult mai plăcut și trăit la <strong>intensitate maximă</strong>. De aceea ei vă oferă o mulțime de activități outdoor
+
+ care te fac să uiți de stresul zilnic și să te reîncarci cu energie. O modalitate frumoasă de a adăuga în viața ta un plus de mișcare și sănătate.
+ 
+ Dacă doriți să încercați senzația <strong>zborului liber</strong>, să <strong>vă aventurați pe valurile râurilor într-un caiac sau o barcă de rafting</strong> sau să vă distrați împreună cu cei dragi <strong>făcând ceva diferit</strong>, cei de la TXA au soluția pentru ca distracția dumneavoastră să fie așa cum vă doriți.
+ 
+ <strong>Mai multe detalii găsiți la</strong>:  https://txa.ro/.
+</div>
+
+</body>
+</html>
+

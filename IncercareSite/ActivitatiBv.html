@@ -1,0 +1,851 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, html  { 
+		height:100%;
+		margin:0;
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+	<meta name="pentru NavigationBar"/>
+} 
+
+.aranjare-buton1 {
+    position: absolute;
+    top: 1000px;
+    left: 540px;
+} 
+
+.aranjare-buton2 {
+    position: absolute;
+    top: 1820px;
+    left: 690px;
+} 
+
+.aranjare-buton3 {
+    position: absolute;
+    top: 2600px;
+    left: 580px;
+}
+
+.aranjare-buton4 {
+    position: absolute;
+    top: 3400px;
+    left: 665px;
+}
+
+.aranjare-buton5 {
+    position: absolute;
+    top: 4200px;
+    left: 650px;
+}
+
+.aranjare-buton6 {
+    position: absolute;
+    top: 5000px;
+    left: 570px;
+}
+
+.aranjare-buton7 {
+    position: absolute;
+    top: 5800px;
+    left: 570px;
+}
+
+.aranjare-buton8 {
+    position: absolute;
+    top: 6600px;
+    left: 595px;
+}
+
+.aranjare-buton9 {
+    position: absolute;
+    top: 7400px;
+    left: 650px;
+}
+
+.aranjare-buton10 {
+    position: absolute;
+    top: 8200px;
+    left: 560px;
+}
+
+.aranjare-buton11 {
+    position: absolute;
+    top: 9000px;
+    left: 600px;
+}
+
+.aranjare-buton12 {
+    position: absolute;
+    top: 9800px;
+    left: 580px;
+}
+
+.aranjare-buton13 {
+    position: absolute;
+    top: 10600px;
+    left: 600px;
+}
+
+.aranjare-buton14 {
+    position: absolute;
+    top: 11400px;
+    left: 640px;
+}
+
+.aranjare-buton15 {
+    position: absolute;
+    top: 12200px;
+    left: 560px;
+}
+
+.aranjare-buton16 {
+    position: absolute;
+    top: 13000px;
+    left: 590px;
+}
+
+.aranjare-buton17 {
+    position: absolute;
+    top: 13800px;
+    left: 610px;
+}
+
+.aranjare-buton18 {
+    position: absolute;
+    top: 14600px;
+    left: 610px;
+}
+
+.aranjare-buton19 {
+    position: absolute;
+    top: 15400px;
+    left: 610px;
+}
+
+.aranjare-meniu	{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.backgroundPlaja {
+	background-image: url("Plaja1Atractii.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: opacity(70%);
+
+}
+	
+.navbar {
+    overflow: hidden;
+    background-color: rgba(248, 247, 216, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 40px 45px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 40px 45px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+	background-color: rgba(255, 0, 0, 0.7);
+	<meta name="rosu cu 0.7 opacitate"/>
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.delay {
+animation-delay: 2s;
+	}
+
+.parallax1 {
+    /* Imaginea folosita */
+    background-image: url("ActivitatiPagBv/Brasov3.jpg");
+
+    /* Marimea specifica */
+    min-height: 500px; 
+
+    /* Efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+.parallaxSkiBv {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/Ski4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxSnowMobil{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/SnowMobile3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxATV {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/ATV3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTraseeMontane {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/UrcareTraseeMontane3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPatinaj {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/patinaj1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxPaintballBv {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/PaintBall1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTelecabinaTampa {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/TelecabinaTampa3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcAcvatic{
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/ParcAcvaticBv1.jpeg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxParcAventuraBv {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/ParcAventura1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxEchitatieBv {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/echitatie1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxTenis {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/tenis2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxNaturalHigh {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/NaturalHigh4.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxEscapeRoomBv {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/EscapeRoom3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxCentruAgrement {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/CentruAgrement2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxMountainBike {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/MountainBike2.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxOffRoad {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/OffRoad1.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxZborParapanta {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/ZborCuParapanta3.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxCanion7Scari {
+    /* imaginea folosita */
+    background-image: url("ActivitatiPagBv/Canionul7Scari6.jpg");
+
+    /* inaltimea imaginii */
+    min-height: 500px; 
+
+    /* efectul parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+button {
+    background-color:rgba(101, 237, 27,0.5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 40px;
+	border-radius: 50%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-left">
+
+<div class="navbar">
+	<a href="Incercare1.html">Home</a>
+	<a href="#buton2">Buton2</a>
+	<div class="dropdown">
+	  <button class="dropbutton">Constanța
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiCt.html">Activități</a>
+		<a href="ZoneDeVizitatConstanta.html">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">București
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Sibiu
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiSb.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+	
+	<div class="dropdown">
+		 <button class="dropbutton">Brașov
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="ActivitatiBv.html">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+										
+	<div class="dropdown">
+		 <button class="dropbutton">Cluj
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+	    <a href="#Activitati">Activități</a>
+		<a href="#ZoneDeVizitat">Zone de vizitat</a>
+		<a href="#ZoneDeRelaxare">Zone de relaxare</a>
+		<a href="#Restaurante">Restaurante</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="parallax1"></div>
+
+<div style="height:300px;background-color:aqua;font-size:36px">
+<strong>Municipiul Brașov</strong> a reprezentat, de secole, unul dintre cele mai importante, puternice și înfloritoare orașe din zonă. 
+
+Datorită poziției geografice privilegiate și a infrastructurii sale de astăzi, el permite dezvoltarea multor activități economice, culturale și sportive.
+
+Brașovul este cunoscut și datorită <strong>Festivalului Internațional „Cerbul de Aur”</strong>, ce se ținea aproape în fiecare an în centrul orașului.
+
+Stațiunea de iarnă <strong>Poiana Brașov</strong> se află la 12 km distanță de centrul municipiului, dispunând de o infrastructură dezvoltată pentru <strong>practicarea sporturilor de iarnă.</strong>
+
+</div>
+
+
+
+<div class="parallaxSkiBv"></div>
+<div class="aranjare-buton1">
+<button type="button">Schiat/Snowboarding</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+În Poiana Brașov sunt <strong>12 pârtii de schiat</strong>, cu diferite intensități,iar zăpada deobicei ține 4-5 luni. Daca îți place să practici sporturile de iarnă , atunci <strong>pârtiile Bradu și Slalom</strong> sunt pentru tine.
+
+Dacă ești mai experimentat în schiat sau snowboarding, atunci ai putea incerca <strong>pârtiile Lupului,Drumul Roșu,Subteleferic sau Ruia.</strong>
+
+O urcare cu <strong>gondola costă 20 de lei</strong>, iar cea mai ieftină urcare cu <strong>teleschiul este 8 lei.</strong> Echipamentul de schi se închiriază în medie <strong>cu 50 de lei pe zi</strong>,iar cel de snowboard cu <strong>60 de lei pe zi.</strong>
+
+
+
+</div>
+
+
+
+<div class="parallaxATV"></div>
+<div class="aranjare-buton2">
+<button type="button">ATV</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Pentru cei indrăzneți și pentru aventurieri, activitatea perfectă pentru un weekend energic și aventuros.
+
+Plimbarea cu ATV-ul este un mod diferit și interesant de a ieși cu familia sau prietenii în natură, <strong>in jurul Brașovului sau in Poiana Brașov.</strong>
+
+Prețul închirierii unui ATV timp de o oră este în medie de <strong>150 de lei</strong>,capacitatea de 2 persoane.
+
+<strong>Contact</strong>:0767 546 096, sau <strong>mai multe detalii  pe site-ul</strong>: www.brasovatv.ro..
+
+</div>
+
+<div class="parallaxTraseeMontane"></div>
+<div class="aranjare-buton3">
+<button type="button">Trasee Montane</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Braşovul oferă variante atat turiştilor <strong>neexperimentati în ale muntelui</strong>, cât şi celor care au valenţe de <strong>adevăraţi alpinişti</strong>. Muntele Tâmpa poate fi explorat uşor şi are trasee atât pentru cei curajosi,
+
+cât şi pentru cei care vor o plimbare în aer curat. Masivul Piatra Craiului este o minune a naturii, dar nu oricine îl poate cucerii. Muntele Piatra Mare oferă privelişti suberbe atât vara, cât şi iarna.
+
+În padurile de lânga oraș se află multe zone care merită admirate, printre acestea cele mai cunoscute sunt:<strong>Muntele Tâmpa</strong>,la care se poate ajunge prin mai multe trasee,<strong>Masivul Piatra Craiului</strong>,un mister al naturii,la care au fost 
+
+adăugate 4 noi trasee dar și <strong>Masivul Piatra Mare </strong> ,drumul fiind relaxant ,cu multe privelștii.
+
+</div>
+
+<div class="parallaxPatinaj"></div>
+<div class="aranjare-buton4">
+<button type="button">Patinaj</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Patinoarul Olimpic Brașov a fost inaugurat in ianuarie 2010 și este cel mai nou și cel mai modern patinoar la ora actuală din România. Patinoarul Olimpic din Brașov este situat in spatele Gării centrale din Brașov în incinta Parcului Tractorul și are acces auto cu parcări publice de pe Strada Turnului.
+
+Pe acest patinuar puteți să priviți concursuri artistice de dansuri cu patine sau să vă dați chiar dumneavoastră.
+
+Orarul este diferit in fiecare saptamana,prețul este de <strong>10 lei</strong>, pentru adulți și pentru copii,și va puteți da câteva ore.
+
+<strong>Contact:</strong>0268 471 615,sau <strong>mai multe detalii pe site-ul</strong>: www.dstbv.ro.
+
+</div>
+
+<div class="parallaxPaintballBv"></div>
+<div class="aranjare-buton5">
+<button type="button">Paintball</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Brașov este unul dintre cele mai bune orașe în care puteți să participați la un meci de paintball datorită terenului și pădurilor uriașe.
+
+În funcție de pachetul pe care îl folosiți,și câte persoane sunteți, un meci poate </strong>costa între 50 si 80 de lei,timp de două ore</strong>.
+
+Brașov dispune de câteva terenuri și magazine de paintball,cele mai bune terenuri sunt <strong>PaintballSports</strong>,<strong>Blue Paintball</strong> dar și <strong>PaintballBrasov</strong>.
+
+</br>
+<strong>Contacte</strong>: -PaintballSports:http://www.paintballsports.ro/ , 0772 148 093; </br>
+		  -Blue Paintball1:https://bullet-paint.ro/  , 0746 639 776; </br>
+		  -PaintballBrasov:http://paintballbrasov.com/ , 0766 552 613;
+</div>
+
+<div class="parallaxTelecabinaTampa"></div>
+<div class="aranjare-buton6">
+<button type="button">Telecabina Tâmpa</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+
+
+Telecabina Tâmpa, este unul dintre cele mai importante obiective turistice din Brașov și împrejurimi, obiectiv pe care nu ar trebui să-l ratați dacă vă aflați în apropiere.
+
+<strong>Ea face legătura dintre Brasov și vârful masivului,Tâmpa</strong>. Aceasta parcurge zilnic traseul cu o lungime totală de 573 de metri, iar <strong>o călătorie durează mai puțin de 3 minute</strong>. 
+
+Programul de funcționare al telecabinei este în fiecare zi,mai puțin luni când se fac revizii, <strong>de la ora 9:30 până la 17:00</strong>.
+</div>
+
+<div class="parallaxParcAcvatic"></div>
+<div class="aranjare-buton7">
+<button type="button">Paradisul Acvatic</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Paradisul acvatic Brașov este locul perfect unde puteți combina adrenalina cu relaxarea.
+
+Parcul este dotat cât se poate de bine, pentru oamenii care iși doresc doar <strong>relaxarea</strong>, el dispune de saune,hidromasaj,dușuri cervicale, grotă de relaxare.Pentru cei ce vor <strong>distracție</strong>,el are tobogane cu apa,trambuline pentru sărituri,teren de volei pe nisip,și pe timp de vară sunt deschise și bazinele exterioare.
+
+<strong>Iar pentru cei ce nu pot sării peste ziua de cardio</strong>,ei se pot destinde în bazinul de înot,sala de fitness,aqua-gym dar și teren de fotbal.
+
+Prețurile sunt variabile, <strong>de la 35 de lei pentru 2 ore, la 60 de lei pentru toată ziua</strong>.Pentru <strong>copii sub 140cm prețul este de 25 lei toată ziua.</strong>
+
+</div>
+
+<div class="parallaxParcAventuraBv"></div>
+<div class="aranjare-buton8">
+<button type="button">Parc Aventura</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Parcul Aventura este un foarte bun mod de ați petrece timpul liber alături de prieteni și familie.
+
+El are <strong>15 rute</strong> care sunt în progresie ca și dificultate.Rutele diferă de la înalțimea de <strong>2 metrii pentru copiii sub 8 ani</strong>,până la inălțimea de <strong>20 de metrii la cel mai greu traseu</strong>.
+
+Fiecare participant care se adventurează primește un echipament de protecție care va fi folosit cât timp participantul este pe traseu pentru siguranța acestuia.
+
+Prețul pentru <strong>3 ore de aventură,cu tot cu echipament, este de 50 de lei</strong>,fiecare <strong>oră suplimentară</strong> costând în plus câte <strong>15 lei</strong>.
+
+</div>
+
+<div class="parallaxEchitatieBv"></div>
+<div class="aranjare-buton9">
+<button type="button">Echitație</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Complexul <strong>Casa Viorel</strong> din Poiana Braşov se întinde pe trei hectare şi a fost deschis în anul 1995.
+
+În peisajul superb al munţilor Carpaţi traseele organizate în pădurile din jurul staţiunii, <strong>în şa</strong>, <strong>în trăsuri de vânătoare şi iarna cu sania</strong>, sunt nemaipomenite. Începătorii au posibilitatea de a călări în padocul complexului, însoţiti de instructor. 
+
+Prețurile sunt variate în funcție de dorința pe care o aveți,<strong>mai multe detalii gasiți la</strong>: http://www.equitana.ro/casa-viorel-centru-de-echitatie-in-poiana-brasov/;<strong>Contact</strong>:0728 913 391.
+</div>
+
+
+
+<div class="parallaxNaturalHigh"></div>
+<div class="aranjare-buton10">
+<button type="button">Escaladare Indoor</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+În anul 2007 s-a decis deschiderea unui panou de escaladă indoor ca o consecință firească a dezvoltării acestui sport in Brașov.
+
+Sala este destinată atât <strong>incepătorilor</strong> cât și <strong>cățărătorilor medii și avansați</strong>, oferind trasee de <strong>escaladă și de bouldering</strong>, cu diferite grade de dificultate. 
+
+Dacă dorești să inveți alpinism și nu știi de unde să începi,Natural High are organizate de către ghizi montani experimentați,<strong>cursuri de alpinism</strong>.
+
+Accesul în sala de escalada costă <strong>20 de lei</strong>,închirierea echipamentului costă și ea <strong>20 de lei(ham,espadrile,carabinieră și gri-gri)</strong>.
+
+<strong>Mai multe detalii gasiți la</strong>: http://www.naturalhigh.ro/.
+
+</div>
+
+<div class="parallaxEscapeRoomBv"></div>
+<div class="aranjare-buton11">
+<button type="button">Escape Room</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Dacă te simți pregătit să îți pui la încercare puterea de concentrare și atenția la detalii, jocurile de evadare sunt opțiunea potrivită pentru tine! Timp de 60 de minute,
+
+alături de echipa ta, trebuie să duci la bun sfârșit misiunea camerei tematice pe care ai ales-o:<strong>dezamorsarea bombei chimice,fuga din biroul spionului,dezlegarea Enygmei,camera Legacy,conspirația,și aventura</strong>.
+
+La fiecare pas stau ascunse o serie de indicii, jocuri logice și mecanisme ce trebuie activate pentru a continua jocul și a fi mai aproape de evadare.
+
+<strong>Rezervarea trebuie facută din timp</strong> pentru a putea participa la joc.Prețul este între <strong>30 și 40 de lei</strong> în funcție de cât de mare este grupul.
+</div>
+
+<div class="parallaxCentruAgrement"></div>
+<div class="aranjare-buton12">
+<button type="button">Centru Agrement</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Centrul are o suprafaţă de peste 5000 de mp la interior. Dispune de un <strong>club de bowling</strong>, având capacitatea de 180 de persoane, precum şi de <strong>biliard</strong>, <strong>o zonă de minigolf</strong>, <strong>o sală de escaladă</strong> şi o <strong>sală cu jocuri electrice şi electronice</strong>.
+
+De asemenea, are şi un spaţiu exterior generos de 12.700 de mp amenajat special pentru copii. Locul de joacă are  leagăne, inclusiv pentru persoanele cu dizabilităţi, complex cu <strong>două turnuri şi tobogane, tiroliene şi trei complexe de escaladă pentru copii</strong>.
+
+Centrul de Agrement şi Divertisment este deschis de <strong>marţi până sâmbătă</strong>, între orele <strong>12.00 şi 22.00</strong>, iar <strong>duminică</strong>, între orele <strong>12.00 şi 20.00</strong>. În ziua de <strong>luni</strong> a fiecărei săptămâni, Centrul din Poiană <strong>este închis</strong>.
+
+</div>
+
+<div class="parallaxMountainBike"></div>
+<div class="aranjare-buton13">
+<button type="button">Mountain Bike</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Descoperiți frumusețea munților României și cuprindeți-le sălbăticia lor de pe bicicleta dumneavoastă Mountain Bike.
+
+Puteți incerca să o luați la drum împreună cu diferiții oameni care se strâng în fiecare an in Poaiana Brașov pentru a vizita superbii Carpați, sau puteți incerca impreună cu pritenii, și cu bicicleta desigur, un traseu pe dorința dumneavoastră.
+
+Puteți încerca urcarea cu telegondola Tâmpa pentru a observa rute noi,ca mai apoi să coborați în centrul vechi al Brașovului,în timp ce inspirați aerul revigorant de munte.
+
+Sunt multe rute prestabilite,de exemplu:<strong>Brașov-Săcele-Lacul Târlung-pasul Bratocea-Cheia</strong>.Ruta are 75 de km.<strong>Mai multe pe</strong>: http://www.discoverpoiana.ro/en/mountain-biking/.
+
+</div>
+
+<div class="parallaxOffRoad"></div>
+<div class="aranjare-buton14">
+<button type="button">Off Road</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Dacă îmblanzirea monștrilor pe patru roți este pasiunea ta primordială atunci mobilizează-te și hai la o tură de off road 4x4! Pe drumuri și pante aparent inabordabile veți scoate totul din
+
+motoarele dezlănțuite pentru a atinge obiectivul final, unde vă veți opri pentru o vreme să vă bucurați de peisajele impresionante!
+
+Vei vedea cât de important e să lucrezi în echipă și cât de important este fiecare individ.
+
+<strong>Plecarea va avea loc din Brașov,continuând cu Poaiana Brașov,zona Rașnov,zona Moeciu-Bran,iar mai apoi ajungerea in Brașov</strong>.
+
+Prețul nu este foarte accesibil dar pentru senzația pe care o veți simții se merită toți banii.<strong>Mai multe detalii</strong>: http://www.brasovdaytours.com/raid-4x4;<strong>Contact:</strong>0723 370 920.
+
+</div>
+
+<div class="parallaxZborParapanta"></div>
+<div class="aranjare-buton15">
+<button type="button">Zbor cu Parapanta</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Experimentați visul de a zbura și admirați frumusețea munților văzuți din ochiul unui vulture.
+
+Oricine capabil de alergarea câtorva metrii până la decolare poate încerca această plăcere unică.Fiecare ar trebui să încerce acest sentiment măcar odată,acest sentiment de a fi complet liber.
+
+<strong>Zborul clasic</strong> este cel mai popular zbor în tandem care este recomandat pentru a încerca pentru prima dată zborul cu parapanta.Prețurile sunt de la <strong>250 de lei până la 350 de lei</strong> în funcție de vârful și altitudinea la care vă aflați.
+
+<strong>Mai multe detalii</strong>: http://www.paramania.ro/index.php?option=com_content&view=article&id=52&Itemid=1;<strong>Contact:</strong>0723 920 453.
+
+</div>
+
+<div class="parallaxCanion7Scari"></div>
+<div class="aranjare-buton16">
+<button type="button">Canion 7 Scări</button>
+</div>
+<div style="height:300px;background-color:aqua;font-size:36px">
+Imaginați-vă șapte rupturi de pantă și șapte cascade înșiruite și veți avea în fața ochilor imaginea Canionului “7 Scări” din munții Piatra Mare. Va fi greu să vedeți însa cu ochii minții frumusețea peisajului, care nu poate fi exprimată în cuvinte.
+
+Canionul “7 Scări” este un defileu format din calcare jurasice, aflat în vestul munților Piatra Mare din județul Brașov. Are 160 de metri lungime și o diferență de nivel de 58 de metri.
+
+Traseul pe care trebuie să-l urmați este marcat cu <strong>banda galbena</strong>. După aproximativ o jumătate de oră de mers, veți întâlni primul loc de popas, numit (așa cum arată indicatorul) <strong>“Valea Sipoaia”</strong>. Mai sus, în amonte, veți întâlni <strong>“Cascada cu Apă Vie”</strong> și popasul cu același nume.
+
+</div>
+
+
+</body>
+</html>
+
